@@ -35,7 +35,7 @@ const Navbar = () => {
       </ul>
       {location.pathname === "/blog" && (
         <select
-          className="absolute top-1/2 right-4 -translate-y-1/2 p-2"
+          className="absolute top-1/2 right-4 -translate-y-1/2 p-2 rounded-full text-[#333] font-bold"
           onChange={handleSortChange}
         >
           <option value="reset">Choose</option>
